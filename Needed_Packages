@@ -1,0 +1,25 @@
+To run this program, you need to have Python installed on your system. The program uses the following Python packages:
+
+1. `tkinter`: This is the standard Python interface to the Tk GUI toolkit. It is used to create the user interface for the program. It is included with standard Python installations, so you should not need to install it separately.
+
+2. `math`: This module provides mathematical functions defined by the C standard. In this program, it is used to perform mathematical calculations necessary for the conversion between dB, dBm, and Watts. This is also included with standard Python installations.
+
+If you've installed Python from the official website or through a distribution like Anaconda, these packages should already be installed.
+
+To check whether you have Python installed, open your command prompt (Windows) or terminal (macOS/Linux) and type:
+
+```
+python --version
+```
+
+This command should return the Python version number. If you see a version number (like Python 3.8.5, for example), it means you have Python installed. If you get an error message, you will need to install Python.
+
+You can download Python from the official website: https://www.python.org/
+
+In the rare case that tkinter is not installed with your Python distribution, you can install it via your package manager. For most Linux distributions, the command would be:
+
+```
+sudo apt-get install python3-tk
+```
+
+Please replace `python3` with your Python version if it's different.
